@@ -1,0 +1,16 @@
+[theme.light]
+# 라이트/다크 모드는 사용자 시스템 설정을 따르고, 모드별 강조 색만 지정한다.
+primaryColor = "#4F46E5"
+
+[theme.dark]
+primaryColor = "#818CF8"
+
+[server]
+# 로컬 실행 시 이메일 입력 프롬프트 없이 바로 시작
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
