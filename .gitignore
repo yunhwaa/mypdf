@@ -1,0 +1,19 @@
+# 비밀 정보
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 테스트/기타
+.pytest_cache/
+tests/screenshots/
+tests/logs/
+tests/fixtures/
+test-results/
+
+# 개인 샘플 문서 (저작권·개인정보) — 루트의 PDF는 업로드하지 않음
+/*.pdf
